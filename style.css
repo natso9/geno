@@ -1,8 +1,12 @@
 .countdown-container {
+  background: #b6e8ff;
   padding: 24px;
   color: #1d3357;
+  font-family: "Roboto", sans-serif;
   width: 500px;
+  box-sizing: border-box;
   margin: 0 auto;
+  box-shadow: 0 4px 22px -8px rgba(0, 0, 0, 0.6);
 }
 
 .countdown-container .countdown-heading {
@@ -18,7 +22,7 @@
 .timer {
   background: #1d3357;
   color: #f1faee;
-  padding: 16px;
+  padding: 42px;
   display: flex;
   justify-content: space-between;
   text-align: right;
@@ -43,7 +47,7 @@
   color: #f1faee;
   font-weight: bold;
   text-align: center;
-
+  transition: background-color 500ms;
 }
 
 .countdown-btn:hover {
